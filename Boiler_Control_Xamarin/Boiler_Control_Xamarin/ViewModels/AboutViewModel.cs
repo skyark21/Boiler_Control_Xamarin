@@ -9,7 +9,7 @@ namespace Boiler_Control_Xamarin.ViewModels
     {
         public AboutViewModel()
         {
-            Title = "About";
+            Title = "Bioler SC";
             OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://aka.ms/xamarin-quickstart"));
         }
 
